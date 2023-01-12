@@ -313,6 +313,13 @@ svg {
   color: var(--color-text);
 }
 
+.section-text-middle {
+  line-height: 2;
+  margin-top: 18px;
+  font-size: 18px;
+  color: var(--color-text);
+}
+
 /* Fancy Decoration Part of Section */
 .section-title {
   position: relative;
