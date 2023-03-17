@@ -12,6 +12,7 @@ body {
 }
 
 h1,
+h2,
 section,
 p,
 span,
@@ -295,7 +296,7 @@ svg {
 
 .section-detail-wrapper {
   position: relative;
-  padding: 20% 5%;
+  padding: 10% 5%;
 }
 
 .section-heading {
@@ -306,6 +307,21 @@ svg {
   color: var(--color-text);
 }
 
+.section-heading-link {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.8;
+  margin-top: 24px;
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+.section-heading-link:hover {
+  text-decoration: underline;
+}
+.section-heading-link:visited {
+  color: rgb(128, 0, 128); /* Purple */
+}
 .section-text {
   line-height: 2;
   margin-top: 18px;
@@ -524,5 +540,34 @@ svg {
   font-weight: 900;
   mix-blend-mode: difference;
 }
-/* 
-thinner/shorter */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 25px;
+  line-height: 2;
+  font-size: 24px;
+  color: var(--color-text);
+  list-style-type: none;
+}
+
+li:before {
+  content: "\2022";
+  color: var(--color-pink);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+h2 {
+  line-height: 2;
+  color: var(--color-text);
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
